@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Tabs assignment</title>
+    <link rel="stylesheet" href="scss/style.scss">
+</head>
+<body>
+    <h1>Small Form Factor <span class="sff">(SFF)</span> kompiuteriai</h1>
+    <h2>Trys įdomus dalykai apie SFF kompiuterius</h2>
+
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'dydis')">Dydis</button>
+        <button class="tablinks" onclick="openTab(event, 'dizainas')">Dizainas</button>
+        <button class="tablinks" onclick="openTab(event, 'konstravimas')">Konstravimas</button>
+        <button class="tablinks" onclick="openTab(event, 'galerija')">Galerija</button>
+    </div>
+        <div id="dydis" class="tabcontent">
+            <h3>Dydis</h3>
+
+            <p>"SFF" kompiuteriai yra "Small Form Factor" (mažo formato veikimo) kompiuteriai, kurių dizainas yra optimizuotas mažam dydžiui, siekiant sutaupyti vietos ir padidinti mobiliąją galimybę. Šie kompiuteriai gali būti naudojami tiek asmeniniam, tiek verslo naudojimui.
+            </p><br>
+
+            <p>SFF kompiuteriai paprastai yra kompaktiškesni ir lengvesni nei tradiciniai stacionarūs kompiuteriai, todėl jie yra puikus pasirinkimas tiems, kurie siekia taupyti vietą darbo stalo ar nori lengvai nešioti kompiuterį. Nepaisant mažo dydžio, dauguma SFF kompiuterių išlaiko aukštą galios ir našumo lygį, nes jie dažnai naudoja pažangias technologijas ir kompaktiškus, bet efektyvius komponentus.
+            </p><br>
+
+            <p>SFF kompiuteriai gali būti naudojami įvairiose srityse, įskaitant verslo aplinką, žaidimų industriją ir asmeninę naudojimą. Jų daugialypės galimybės ir mažas plotis leidžia lengvai integruoti įvairius prietaisus ir technologijas, o kartu ir optimizuoti energijos naudojimą.
+            </p>
+        </div>
+    
+        <div id="dizainas" class="tabcontent">
+            <h3>Dizainas</h3>
+            <p>SFF kompiuterių dizainas - kompaktiškas, efektyvus ir modernus, su specialiai pritaikytais komponentais, ergonomiškomis jungtimis, bei galimybėmis vertikaliai ar horizontaliai montuoti. Pabrėžiamas mažas dydis, galingas veikimas ir patraukli išvaizda. Patogus naudoti ir mobiliam naudojimui pritaikytas.
+            </p> 
+        </div>
+    
+        <div id="konstravimas" class="tabcontent">
+            <h3>Konstravimas</h3>
+            <p>SFF kompiuterio konstravimas - tai mažo dydžio korpuso kūrimas su galingais, efektyviais komponentais. Tai apima specialias plokštes, efektyvų šilumos valdymą, ergonomiškas jungtis ir galimybę lankstiai montuoti komponentus. Galutinis rezultatas - kompaktiškas, galingas ir modernus kompiuteris.
+            </p>
+            <div id="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/k4EDKeBuMtA?si=hDjA8dss4g2TndU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </div>
+
+        <div id="galerija" class="tabcontent">
+            <img src="https://preview.redd.it/final-form-formd-t1-v2-v0-bx5wdl3jae1c1.jpg?width=640&crop=smart&auto=webp&s=00de99514e17eba34ae78228767ffb3ab995db2b" alt="pic-1">
+            <img src="https://cdna.pcpartpicker.com/static/forever/images/userbuild/439091.e7da1a085a8fafd46f1f670f0e5a0e6e.1600.jpg" alt="pic-2">
+            <img src="https://cdna.pcpartpicker.com/static/forever/images/userbuild/432399.8919eee2f2b7824e1225cfa6ad5be3ad.1600.jpg" alt="pic-3">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
